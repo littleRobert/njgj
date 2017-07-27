@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/base.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/util.js"></script>
+</head>
+<body>
+	<!-- 手机端右侧菜单栏 -->
+	<div class="right-menus">
+		<div class="modal fade right-menu in" id="right-menu" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				
+				<a type="button" class="btn  col-xs-12">About</a>
+				<a type="button" class="btn  col-xs-12">Academics</a>
+				<a type="button" class="btn  col-xs-12">Faculty</a>
+				<a type="button" class="btn  col-xs-12">Activities</a>
+			</div>
+		</div>
+	</div>
+	
+	<header>
+		<div class="menus-phone visible-xs">
+			<div class="login pull-left">
+				<span class="sign">Sign</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="register">Register</span>
+			</div>
+			<button class="btn" data-toggle="modal" data-target="#right-menu" id="right-bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		</div>
+		
+		<div class="header-top hidden-xs">
+			<div class="container">
+				<div class="row ">
+					<div class="con-info pull-left">Mon-Fri: 8:00 -
+						18:00&nbsp;&nbsp;|&nbsp;&nbsp;E: njgjzx@163.com</div>
+					
+					<div class="login pull-right">
+						<span class="language">语 言:<img src="images/flag1.png">
+							<ul class="language-more">
+								<li class="active"><a><img src="images/flag1.png">中文</a></li>
+								<li><a><img src="images/flag2.png">English</a></li>
+							</ul>
+						</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="sign">登 录</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="register">注 册</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="header-bottom-f hidden-xs">
+			<div class="container ">
+				<div class="row ">
+					<div class="header-bottom">
+						<div class="school-logo pull-left hidden-xs">
+							<img src="images/school-logo.svg">
+						</div>
+						<div class="menus pull-right">
+							<ul class="menus-list">
+								<li><span class="active"><a href="index.html">首页</a></span></li>
+								<li><span>关于我们</span>
+									<div class="drop-down">
+										<div class="container">
+											<div class="row">
+												<ul class="drop-down-list">
+													<li class="col-2">
+														<ul class="more-menus">
+															<li><a href="oration.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Oration</a></li>
+															<li><a href="mission.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Mission & Core Value</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Facilities & Services</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Publication</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Alumni</a></li>
+														</ul>
+													</li>
+													<li class="col-3"><img src="images/menus1.jpg">
+													</li>
+													<li class="col-5">
+														<h3>WELCOME FROM INTERNATIONAL DEPARTMENT</h3> As Head of
+														School, let me be the first to welcome you to Nanjing
+														Senior High School of Jiangsu Province International
+														Department !
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div></li>
+								<li><span>招生信息</span>
+									<div class="drop-down">
+										<div class="container">
+											<div class="row">
+												<ul class="drop-down-list">
+													<li class="col-2">
+														<ul class="more-menus">
+															<li><a href="recruit.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>招生简章</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>在线报名</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>常见问题</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>联系方式</a></li>
+														</ul>
+													</li>
+													<li class="col-3"><img src="images/menus2.jpg">
+													</li>
+													<li class="col-5">
+														<h3>WELCOME FROM INTERNATIONAL DEPARTMENT</h3> As Head of
+														School, let me be the first to welcome you to Nanjing
+														Senior High School of Jiangsu Province International
+														Department !
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div></li>
+								<li><span>学校课程</span>
+									<div class="drop-down">
+										<div class="container">
+											<div class="row">
+												<ul class="drop-down-list">
+													<li class="col-2">
+														<ul class="more-menus">
+															<li><a href="subject.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Subject Teachers</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Homeroom Teachers</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>College Counseling</a></li>
+														</ul>
+													</li>
+													<li class="col-3"><img src="images/menus3.jpg">
+													</li>
+													<li class="col-5">
+														<h3>WELCOME FROM INTERNATIONAL DEPARTMENT</h3> As Head of
+														School, let me be the first to welcome you to Nanjing
+														Senior High School of Jiangsu Province International
+														Department !
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span>校园活动</span>
+									<div class="drop-down">
+										<div class="container">
+											<div class="row">
+												<ul class="drop-down-list">
+													<li class="col-2">
+														<ul class="more-menus">
+															<li><a href="clubs.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Students Club</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>activity photo gallery</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>major events & activities
+																	calendar</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Cultural Exchange</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Athletics</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>Fine Arts</a></li>
+														</ul>
+													</li>
+													<li class="col-3"><img src="images/menus4.jpg">
+													</li>
+													<li class="col-5">
+														<h3>WELCOME FROM INTERNATIONAL DEPARTMENT</h3> As Head of
+														School, let me be the first to welcome you to Nanjing
+														Senior High School of Jiangsu Province International
+														Department !
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span>升学指导</span>
+									<div class="drop-down">
+										<div class="container">
+											<div class="row">
+												<ul class="drop-down-list">
+													<li class="col-2">
+														<ul class="more-menus">
+															<li><a href="guide.html"><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>升学咨询</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>世界大学</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>文化交流</a></li>
+															<li><a><i class="fa fa-caret-right"
+																	aria-hidden="true"></i>海外学子</a></li>
+														</ul>
+													</li>
+													<li class="col-3"><img src="images/menus4.jpg">
+													</li>
+													<li class="col-5">
+														<h3>WELCOME FROM INTERNATIONAL DEPARTMENT</h3> As Head of
+														School, let me be the first to welcome you to Nanjing
+														Senior High School of Jiangsu Province International
+														Department !
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="slider slider-phone">
+			<div id="carousel" class="carousel slide carousel-fade"
+				data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Carousel items -->
+				<div class="carousel-inner">
+					<div class="active item">
+						<img src="images/bkg1.jpg">
+					</div>
+					<div class="item">
+						<img src="images/bkg2.jpg">
+					</div>
+					<div class="item">
+						<img src="images/bkg3.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menus-search container hidden-xs">
+			<div class="menus-search-con">
+				<div class="selects col-sm-8">
+					<div class="select-con col-sm-6">
+						<select>
+							<option>ALL CATEGORIES</option>
+							<option>123</option>
+							<option>123</option>
+						</select>
+					</div>
+					<div class="select-con col-sm-6">
+						<select>
+							<option>ALL CATEGORIES</option>
+							<option>123</option>
+							<option>123</option>
+						</select>
+					</div>
+					
+				</div>
+				<div class="col-sm-1 vertical-con">
+					<div class="col-sm-8 vertical"></div>
+					<div class="col-sm-4"></div>
+				</div>
+				<div class="select-submit col-sm-3">
+					<button class="btn select-botton pull-right">SEARCH COURSE</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="grey-bkg grey-bkg-phone">
+		<div class="container">
+			<div class="row">
+				<div class="course">
+					<div class="big-title-con big-title-con-phone">
+						<h2 class="big-title text-center">POPULAR <span style="color:#fabe3c">COURSE</span></h2>
+						<h4 class="subtitle text-center">Join our growing global community of over 7 million learners.</h4>
+					</div>
+					
+					<div class="course-list course-list-phone">
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course1.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        		<span class="pull-right"><img src="images/hot-img.svg"></span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course2.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        		<span class="pull-right"><img src="images/hot-img.svg"></span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course3.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course4.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course5.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+						<div class="col-sm-4">
+							<div class="thumbnail">
+						    	<img src="images/course6.jpg" alt="...">
+						    	<div class="caption">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p  class="course-author">by<span>John Sloan</span></p>
+						        	<div class="lick-rate">
+						        		LICK RATE:
+						        		<span class="lick-rate-num">100</span>
+						        	</div>
+						      	</div>
+						    </div>
+						</div>
+					</div>
+					<div class="more-button .more-button-phone text-center col-xs-12">
+						<a class="btn">VIEW ALL</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container body-middle">
+		<div class="row">
+			<div class="col-sm-6 latest-news">
+				<div class="big-title-con big-title-con-phone col-sm-8">
+					<h2 class="big-title">LATEST <span style="color:#fabe3c">NEWS</span></h2>
+					<h4 class="subtitle">Education news all over the world.</h4>
+				</div>
+				<ul class="nav nav-tabs col-sm-4 hidden-xs" role="tablist">
+				    <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+				    <li role="presentation"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+				</ul>
+				<div class="news-cons col-sm-12">
+					  <!-- Tab panes -->
+					  <div class="tab-content">
+					    <div role="tabpanel" class="tab-pane active" id="tab1">
+					    	<div class="news-con">
+					    		<div class=" news-img-phone news-img  col-sm-5 col-xs-6" style="background:url('images/course1.jpg')"></div>
+					    		<div class="news-info news-info-phone col-sm-7 col-xs-6">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p class="course-author">by<span>John Sloan</span></p>
+						        	<p class="hidden-xs">The Education Report: A New Report Says Americans Less Happy.</p>
+					    		</div>
+					    	</div>
+					    	<div class="news-con">
+					    		<div class=" news-img-phone news-img  col-sm-5 col-xs-6" style="background:url('images/course2.jpg')"></div>
+					    		<div class="news-info news-info-phone col-sm-7 col-xs-6">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p class="course-author">by<span>John Sloan</span></p>
+						        	<p class="hidden-xs">The Education Report: A New Report Says Americans Less Happy.</p>
+					    		</div>
+					    	</div>
+					    </div>
+					    <div role="tabpanel" class="tab-pane" id="tab2">
+							<div class="news-con">
+					    		<div class=" news-img-phone news-img  col-sm-5 col-xs-6" style="background:url('images/course3.jpg')"></div>
+					    		<div class="news-info news-info-phone col-sm-7 col-xs-6">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p class="course-author">by<span>John Sloan</span></p>
+						        	<p class="hidden-xs">The Education Report: A New Report Says Americans Less Happy.</p>
+					    		</div>
+					    	</div>
+					    	<div class="news-con">
+					    		<div class=" news-img-phone news-img  col-sm-5 col-xs-6" style="background:url('images/course4.jpg')"></div>
+					    		<div class="news-info news-info-phone col-sm-7 col-xs-6">
+						    		<p class="subject">—— MATCHEMATUCS</p>
+						        	<h4 class="course-title">ADVANCED MATHEMATICS</h4>
+						        	<p class="course-author">by<span>John Sloan</span></p>
+						        	<p class="hidden-xs">The Education Report: A New Report Says Americans Less Happy.</p>
+					    		</div>
+					    	</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+			<div class="recent-event col-sm-6">
+				<div class="big-title-con big-title-con-phone col-sm-12">
+					<h2 class="big-title">RECENT <span style="color:#fabe3c">EVENT</span></h2>
+					<h4 class="subtitle">Upcoming school events to feed your brain.</h4>
+				</div>
+				<div class="event-cons event-cons-phone col-sm-12">
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">01</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">17</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">15</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">14</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">01</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">04</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">15</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="event-con">
+						<div class="prview-btns">
+							<div class=" prview-more text-center">
+								<span class="day">24</span><br>
+								<span>DEC</span>
+							</div>
+							<span class="btn-shadow"></span>
+						</div>
+						<div class="event-info">
+							<h4 class="course-title">SPECIAL EVENTS: NO STRESS WEEK</h4>
+							<p class="tw"><span><i class="fa fa-clock-o" aria-hidden="true"></i>8:00 AM  -  5:00 PM</span>
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i>Room 601, Building 1</span>
+							</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="more-button more-button-phone text-center col-xs-12">
+					<a class="btn">VIEW ALL</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- amazing moment -->
+	<div class="grey-bkg grey-bkg-phone">
+		<div class="container">
+			<div class="row">
+				<div class="amazing-moment">
+					<div class="big-title-con big-title-con-phone">
+						<h2 class="big-title text-center">AMAZING <span style="color:#fabe3c">MOMENT</span></h2>
+					</div>
+					<div class="amazing-con">
+						<div class="nav-tabs-con text-center">
+							<a class="active" href="#amazing1" aria-controls="amazing1" role="tab" data-toggle="tab">Photos of The Week</a>
+							<a class="" href="#amazing2" aria-controls="amazing2" role="tab" data-toggle="tab">Featured of Videos</a>
+						</div>
+						<div class="tab-content">
+							<!-- 图片 -->
+						    <div role="tabpanel" class="tab-pane active" id="amazing1">
+						    	<div class="img-2-2" style="background:url('images/a1.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a2.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a3.jpg')"><div></div></div>
+						    	<div class="img-2-1" style="background:url('images/a4.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a5.jpg')"><div></div></div>
+						    	<div class="img-2-1" style="background:url('images/a6.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a1.jpg')"><div></div></div>
+						    	<div class="more-button .more-button-phone text-center col-xs-12">
+									<a class="btn">VIEW ALL</a>
+								</div>
+						    </div>
+						    <!-- 视频  -->
+						    <div role="tabpanel" class="tab-pane" id="amazing2">
+						    	<div class="img-3-4" style="background:url('images/a1.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a3.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a2.jpg')"><div></div></div>
+						    	<div class="img-1-1" style="background:url('images/a5.jpg')"><div></div></div>
+						    	<div class="more-button .more-button-phone text-center col-xs-12">
+									<a class="btn">VIEW ALL</a>
+								</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-top hidden-xs">
+			<div class="container">
+				<div class="row ">
+					<div class="footer-img text-right ">
+						<img src="images/school-logo-w.svg">
+					</div>
+					<div class="footer-address text-left ">
+						<p><span style="color:#fabe3c">P: </span>0510-8699-0206</p>
+						<p><span style="color:#fabe3c">F: </span>0510-8688-1204</p>
+						<p><span style="color:#fabe3c">A: </span>158 Longding Road/Jiangyin National High-Tech Zone/JIangsu/China</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom text-center">
+			COPYRIGHT © 2017 Nanjing Senior Hogh School of Jiangsu Province All Rights Reserved.
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	
+</script>
+</html>
